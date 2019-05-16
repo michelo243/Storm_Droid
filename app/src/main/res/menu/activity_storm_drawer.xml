@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_conso"
+                android:icon="@drawable/ic_consommation"
+                android:title="Consommation"/>
+        <item
+                android:id="@+id/nav_data"
+                android:icon="@drawable/ic_daily"
+                android:title="Donnees Journalieres"/>
+        <item
+                android:id="@+id/nav_price"
+                android:icon="@drawable/ic_price"
+                android:title="Details des prix"/>
+
+    </group>
+
+    <item android:title="Autres options">
+        <menu>
+            <item
+                    android:id="@+id/nav_sync"
+                    android:icon="@drawable/ic_sync"
+                    android:title="Synchroniser"/>
+            <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_settings"
+                    android:title="A propos de ..."/>
+        </menu>
+    </item>
+
+</menu>

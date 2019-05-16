@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/layoutabout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/green_overlay"
+                tools:context=".StormActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/llayoutvert" >
+
+        <ImageView
+                android:id="@+id/app_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+                android:layout_centerVertical="true"
+                android:src="@drawable/background_v2" />
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:inputType="textMultiLine"
+                  android:text="@string/about_us"
+                  android:fontFamily="@font/nunito_semibold"
+                  android:textSize="16dp"
+                  android:layout_margin="8dp"
+                  android:textAlignment="center"
+                  android:paddingTop="10dp"
+        />
+
+
+
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="@string/conceptor"
+              android:layout_alignBottom="@+id/llayoutvert"
+              android:layout_margin="10dp"
+              android:textColor="@color/colorPrimary"
+              android:gravity="center_horizontal"
+              android:fontFamily="@font/sf_pro_display_regular"
+    />
+
+
+
+</RelativeLayout>

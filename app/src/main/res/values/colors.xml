@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#117c6f</color>
+    <color name="colorPrimaryDark">#269386</color>
+    <color name="colorAccent">#117c6f</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="grey_semi_overlay">#d1d1d1</color>
+    <color name="bg_light">#fafafa</color>
+
+    <color name="launcher_background">#269386</color>
+    <color name="green_overlay">#E8E8E8</color>
+    <color name="transparent">#00000000</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="vertfort">#005e20</color>
+
+    <color name="primary_txt">#212121</color>
+
+    <color name="palette_choco1">#24150E</color>
+    <color name="palette_choco2">#3F2A1D</color>
+    <color name="palette_choco3">#8E6248</color>
+    <color name="palette_choco4">#8C7462</color>
+    <color name="palette_choco5">#F2EBE9</color>
+    <color name="palette_choco6">#582A20</color>
+    <color name="palette_choco7">#BE7052</color>
+    <color name="palette_choco8">#F1DED1</color>
+    <color name="palette_choco9">#9499A6</color>
+
+    <color name="btn_tv_stroke">#8E6248</color>
+    <color name="tv_text_stroke">#333745</color>
+    <color name="btn_tv_text">#333745</color>
+    <color name="textview_fill">#F1F1F2</color>
+    <color name="stroke">#FE6000</color>
+
+    <color name="colorPrimaryBackground">#22DADADA</color>
+
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+    <color name="dwhite">#FFFFFF</color>
+    <color name="dyellow">#FFEB3B</color>
+    <color name="ddarkyellow">#FDD835</color>
+    <color name="dblack">#000000</color>
+    <color name="dlightgrey">#9E9E9E</color>
+    <color name="dgreen">#26A69A</color>
+    <color name="ddarkblue">#0B0080</color>
+
+
+
+</resources>

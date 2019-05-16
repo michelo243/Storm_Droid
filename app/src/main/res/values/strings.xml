@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Storm</string>
+    <string name="title_app">Storm Aloha Dynamics</string>
+
+    <string name="conceptor">by SynapseHub (www.synapse-hub.net)</string>
+
+    <string name="physics_animations">Physics Animations</string>
+    <string name="storm_animations">Bienvenue sur STORM</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="showing_code_in_fragment">Scannez le QRCode du motard :</string>
+    <string name="scan_qr_code">SCAN QR CODE</string>
+    <string name="name">Details apres scan du QRcode du motard :</string>
+    <string name="empty">---</string>
+    <string name="qte_fuel">Quantite consommee (en Litre)</string>
+    <string name="prix_fuel">Prix Unitaire du jour</string>
+    <string name="scan_a_code">Scan a QR Code</string>
+    <string name="result_not_found">Aucun resultat</string>
+    <string name="show_scanner_from_fragment">Show Scanner From Fragment</string>
+    <string name="se_connecter">Se connecter</string>
+    <string name="s_enregistrer">S\'enregistrer</string>
+    <string name="adresse_email">Adresse email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="nom_d_utilisateur">Nom d\'utilisateur</string>
+    <string name="votre_nom">Votre nom</string>
+
+    <string name="login_title">Login -> </string>
+    <string name="login_welcome_txt">--</string>
+
+    <array name="conso_types">
+        <item>Essence</item>
+        <item>Diesel</item>
+        <item>Petrole</item>
+    </array>
+    <string name="title_activity_storm">StormActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aloha Dynamics</string>
+    <string name="nav_header_subtitle">Utilisateur aggree</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="sqlitetablelockedexception">Impossible d\'enregistrer, la table est lockee</string>
+    <string name="sqliteexception">Impossible d\'enregistrer, la base de donnees est inaccessible</string>
+    <string name="valeursnulles">La quantite ou la reference du client ne peut etre nulle</string>
+    <string name="savingerror">Valeurs incorrectes. Merci de corriger !</string>
+    <string name="savingcustomererror">Ce client n\'existe pas!</string>
+    <string name="nointernet">"Aucune connection internet detectee !!"</string>
+
+    <string name="about_us">Nous sommes Aloha Dynamics. Cette application permet de pouvoir enregistrer les consommations des clients abonnés à des stations de carburant. (This app help to register all details about customer gaz station in Goma, DRC)</string>
+
+
+    <string name="url_getcustomers">url_for_customers.php</string>
+    <string name="url_getalllusers">url_for_users.php</string>
+
+</resources>

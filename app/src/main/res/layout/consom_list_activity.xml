@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvconsomma"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_marginTop="5dp"
+    />
+
+    <Button
+            android:id="@+id/btn_synchro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/btn_button_cool"
+            android:layout_alignParentBottom="true"
+            android:drawableLeft="@drawable/ic_sync"
+            android:drawablePadding="6dp"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:text="Envoyer au Serveur"
+            android:textSize="18dp"
+            android:fontFamily="@font/nunito_bold"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_tv_text" />
+
+</RelativeLayout>

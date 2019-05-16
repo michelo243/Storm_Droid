@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_centerVertical="true"
+              android:gravity="center_vertical"
+              android:scrollbars="vertical"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+                android:id="@+id/login_image_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_storm_v2" />
+
+        <EditText
+            android:id="@+id/r_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:background="@drawable/textview_cool"
+            android:drawableLeft="@drawable/ic_identity_black"
+            android:drawablePadding="10dp"
+            android:hint="@string/votre_nom"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/r_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:background="@drawable/textview_cool"
+            android:drawableLeft="@drawable/ic_person_black"
+            android:drawablePadding="10dp"
+            android:hint="@string/nom_d_utilisateur"
+            android:padding="10dp" />
+
+        <EditText
+                android:id="@+id/r_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:background="@drawable/textview_cool"
+                android:drawableLeft="@drawable/ic_lock_black"
+                android:drawablePadding="10dp"
+                android:hint="@string/mot_de_passe"
+                android:padding="10dp" />
+
+        <EditText
+                android:id="@+id/r_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:background="@drawable/textview_cool"
+                android:drawableLeft="@drawable/ic_email_black"
+                android:drawablePadding="10dp"
+                android:hint="@string/adresse_email"
+                android:padding="10dp" />
+
+
+        <Button
+                android:id="@+id/btnregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/btn_button_cool"
+                android:text="@string/s_enregistrer"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_tv_text" tools:ignore="HardcodedText"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/transparent"
+                android:text="@string/se_connecter"
+                android:id="@+id/btnr_login"
+                android:textAllCaps="false"
+                android:textAlignment="textEnd"
+                android:textColor="@color/textColor"
+                android:textSize="13sp" tools:ignore="ObsoleteLayoutParam"/>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="10dp">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+        <ImageView
+                android:id="@+id/avatarImage"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/ic_diesel"
+                android:background="#fff"
+                />
+
+        <TextView
+                android:id="@+id/tvproduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/avatarImage"
+                android:textColor="@android:color/black"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Sandra Adams"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_toRightOf="@+id/avatarImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvproduct"
+             >
+
+            <TextView
+                    android:id="@+id/tvprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/vertfort"
+                    android:text="15$"
+
+            />
+
+            <TextView
+                    android:id="@+id/tvdatep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="12dp"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/stroke"
+                    android:text="24 nov 2018"
+            />
+        </LinearLayout>
+
+
+
+    <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/item_margin"
+            android:layout_marginBottom="@dimen/layout_margin"
+            android:background="@color/colorPrimaryBackground"></View>-->
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

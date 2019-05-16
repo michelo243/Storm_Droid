@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="@android:color/white"
+                android:padding="@dimen/padding_medium">
+
+    <LinearLayout
+            android:id="@+id/llayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_medium"
+            android:fontFamily="@font/nunito_semibold"
+            android:text="@string/showing_code_in_fragment" />
+
+    <Button
+            android:id="@+id/btnScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_button_cool"
+            android:fontFamily="@font/nunito_bold   "
+            android:textColor="@color/btn_tv_text"
+            android:layout_marginBottom="@dimen/padding_high"
+            android:text="@string/scan_qr_code">
+
+    </Button>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_semibold"
+            android:paddingBottom="@dimen/padding_default"
+            android:text="@string/name" />
+
+    <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/qr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/empty"
+            android:background="@drawable/textview_cool"
+            android:fontFamily="@font/nunito_semibold"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+    <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_default"
+            android:text="@string/qte_fuel" />-->
+
+    <EditText
+            android:id="@+id/fuel_qte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/qte_fuel"
+            android:fontFamily="@font/nunito_semibold"
+            android:background="@drawable/textview_cool"
+            android:padding="10dp" />
+
+    <EditText
+            android:id="@+id/fuel_prix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semibold"
+            android:background="@drawable/textview_cool"
+            android:hint="@string/prix_fuel"
+            android:padding="10dp" />
+
+        <Spinner
+                android:id="@+id/spinner_type_cons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/conso_types"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/spinner_border"
+                android:fontFamily="@font/nunito_semibold"
+                android:padding="10dp"
+                 />
+
+
+    </LinearLayout>
+
+
+
+        <Button
+                android:id="@+id/btn_save_fuel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/btn_button_cool"
+                android:layout_alignParentBottom="true"
+                android:drawableLeft="@android:drawable/ic_menu_save"
+                android:drawablePadding="6dp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:text="Sauvegarder"
+                android:textSize="18dp"
+                android:fontFamily="@font/nunito_bold"
+                android:textAllCaps="false"
+                android:textColor="@color/btn_tv_text" />
+
+
+
+</RelativeLayout>
